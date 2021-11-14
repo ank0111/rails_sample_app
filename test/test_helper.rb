@@ -17,7 +17,7 @@ class ActiveSupport::TestCase
     session[:user_id] = user.id
   end
   # Add more helper methods to be used by all tests here...
-  # include ApplicationHelper
+  include ApplicationHelper
 end
 
 class ActionDispatch::IntegrationTest
